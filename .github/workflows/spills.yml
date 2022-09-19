@@ -13,8 +13,10 @@ jobs:
     - name: Check out this repo
       uses: actions/checkout@v3
     - name: Fetch latest data
+      env:
+        API_KEY: ${{ secrets.API_KEY }}
       run: |-
-        curl https://www.southernwater.co.uk/gateway/Beachbuoy/1.0/api/v1.0/Spills | jq . > spills.json
+        curl --header "x-Gateway-APIKey: ${{ env.API_KEY }}" https://www.southernwater.co.uk/gateway/Beachbuoy/1.0/api/v1.0/Spills | jq . > spills.json
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
