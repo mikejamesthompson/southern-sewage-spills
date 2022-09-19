@@ -1,10 +1,8 @@
 name: Scrape latest spills data
 
 on:
-  push:
-  workflow_dispatch:
   schedule:
-    - cron:  '7,27,47 * * * *'
+    - cron:  '3 * * * *'
 
 jobs:
   scheduled:
