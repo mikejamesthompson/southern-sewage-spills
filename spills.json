@@ -60871,7 +60871,7 @@
           "siteId": 12591,
           "latitude": 50.853636,
           "longitude": -0.55345017,
-          "siteIcon": "72"
+          "siteIcon": "0"
         },
         {
           "associatedSiteID": 109962,
@@ -63635,7 +63635,7 @@
           "siteId": 12593,
           "latitude": 50.778107,
           "longitude": -0.69960763,
-          "siteIcon": "72"
+          "siteIcon": "0"
         },
         {
           "associatedSiteID": 109979,
@@ -65051,7 +65051,7 @@
           "siteId": 12594,
           "latitude": 50.778107,
           "longitude": -0.69960763,
-          "siteIcon": "72"
+          "siteIcon": "0"
         },
         {
           "associatedSiteID": 109979,
@@ -65086,9 +65086,9 @@
         "bathingWaterId": 13,
         "latitude": 50.779246,
         "longitude": -0.69134912,
-        "siteIcon": "72",
+        "siteIcon": "0",
         "reviewStatus": "Reviewed",
-        "spillMessage": "There has been a overflow release within the last 72 hours which ended at 13:02 on 17 October that may have affected water quality"
+        "spillMessage": "There has been a overflow release within the last 72 hours which ended at 13:02 on 17 October that will not impact the bathing water due to tidal conditions"
       },
       "periods": [
         {
@@ -66451,7 +66451,7 @@
           "siteId": 12595,
           "latitude": 50.778107,
           "longitude": -0.69960763,
-          "siteIcon": "72"
+          "siteIcon": "0"
         },
         {
           "associatedSiteID": 109979,
@@ -66478,9 +66478,9 @@
         "bathingWaterId": 13,
         "latitude": 50.76754,
         "longitude": -0.73648685,
-        "siteIcon": "72",
+        "siteIcon": "0",
         "reviewStatus": "Reviewed",
-        "spillMessage": "There has been a overflow release within the last 72 hours which ended at 13:02 on 17 October that may have affected water quality"
+        "spillMessage": "There has been a overflow release within the last 72 hours which ended at 13:02 on 17 October that will not impact the bathing water due to tidal conditions"
       },
       "periods": [
         {
@@ -67827,7 +67827,7 @@
           "siteId": 12596,
           "latitude": 50.778107,
           "longitude": -0.69960763,
-          "siteIcon": "72"
+          "siteIcon": "0"
         }
       ]
     },
